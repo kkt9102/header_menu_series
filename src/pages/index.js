@@ -15,7 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Link href={{pathname: "Type1/Type1" , query: {title: "Type1"}}}>Type1 가기</Link>
+        <Link href={{pathname: "Type1/Type1" , query: {title: "Type1"}}} as="Type1/Type1">Type1 가기</Link>
+        <Link href={{pathname: "Type2/Type2" , query: {title: "Type2"}}} as="Type2/Type2">Type2 가기</Link>
       </main>
     </>
   )
