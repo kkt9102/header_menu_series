@@ -9,11 +9,12 @@
   - 운영체제 : Window 11
   - IDE : VSCode
   
-|이름|버전|
-|---|---|
-|Next.js|13.3.2|
-|React|18.2.0|
-|node-sass|^8.0.0|
+  |이름|버전|
+  |---|---|
+  |Next.js|13.3.2|
+  |React|18.2.0|
+  |node-sass|^8.0.0|
+  |react-scroll|^1.8.9|
 
 ## 만든이 정보
   - 

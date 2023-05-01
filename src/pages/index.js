@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
+
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -12,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        
+        <Link href={{pathname: "Type1/Type1" , query: {title: "Type1"}}}>Type1 가기</Link>
       </main>
     </>
   )
