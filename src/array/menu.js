@@ -85,9 +85,21 @@ const UseDepth = [
   }
 ];
 
+const Type3 = [
+  {
+    title: "About",
+    Depth: [
+      {
+        title: ""
+      }
+    ]
+  }
+]
+
 const MenuArray = {
   UseHome,
-  UseDepth
+  UseDepth,
+  Type3
 };
 
 export default MenuArray;
