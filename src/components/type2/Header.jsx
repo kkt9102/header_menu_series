@@ -14,7 +14,7 @@ const Header = () => {
       <ul className="flex flex_jc_sa flex_ai_c">
         {MenuArray.UseDepth.map((item, index) =>
           <li key={index} className="relative">
-            {item.Depth.length !== 0 ?
+            {item.depth.length !== 0 ?
               <>
                 <span className="flex flex_jc_c flex_ai_c">{item.title}</span>
                 <div className="depth_menu absolute">

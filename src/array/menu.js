@@ -16,7 +16,7 @@ const UseHome = [
 const UseDepth = [
   {
     title: "About",
-    Depth: [
+    depth: [
       {
         title: "Member"
       }
@@ -24,7 +24,7 @@ const UseDepth = [
   },
   {
     title: "Board",
-    Depth: [
+    depth: [
       {
         title: "Notice"
       },
@@ -35,51 +35,51 @@ const UseDepth = [
   },
   {
     title: "Menu3",
-    Depth: [
+    depth: [
       {
-        title: "Depth Menu1"
+        title: "depth Menu1"
       },
       {
-        title: "Depth Menu2"
+        title: "depth Menu2"
       },
       {
-        title: "Depth Menu3"
+        title: "depth Menu3"
       },
       {
-        title: "Depth Menu4"
+        title: "depth Menu4"
       },
     ]
   },
   {
     title: "Menu4",
-    Depth: []
+    depth: []
   },
   {
     title: "Menu5",
-    Depth: [
+    depth: [
       {
-        title: "Depth Menu1"
+        title: "depth Menu1"
       },
       {
-        title: "Depth Menu2"
+        title: "depth Menu2"
       },
       {
-        title: "Depth Menu3"
+        title: "depth Menu3"
       },
       {
-        title: "Depth Menu4"
+        title: "depth Menu4"
       },
       {
-        title: "Depth Menu5"
+        title: "depth Menu5"
       },
       {
-        title: "Depth Menu6"
+        title: "depth Menu6"
       },
       {
-        title: "Depth Menu7"
+        title: "depth Menu7"
       },
       {
-        title: "Depth Menu8"
+        title: "depth Menu8"
       },
     ]
   }
@@ -88,9 +88,92 @@ const UseDepth = [
 const Type3 = [
   {
     title: "About",
-    Depth: [
+    depth: [
       {
-        title: ""
+        title: "Company",
+        link:""
+      },
+      {
+        title: "Member",
+        link:""
+      } 
+    ]
+  },
+  {
+    title: "Item",
+    depth: [
+      {
+        title: "Category1",
+        link:""
+      },
+      {
+        title: "Category2",
+        link:""
+      },
+      {
+        title: "Category3",
+        link:""
+      },
+      {
+        title: "Category4",
+        link:""
+      },
+      {
+        title: "Category5",
+        link:""
+      },
+      {
+        title: "Category6",
+        link:""
+      },
+      {
+        title: "Category7",
+        link:""
+      },
+      {
+        title: "Category8",
+        link:""
+      },
+      {
+        title: "Category1",
+        link:""
+      },
+      {
+        title: "Category2",
+        link:""
+      },
+      {
+        title: "Category3",
+        link:""
+      },
+      {
+        title: "Category4",
+        link:""
+      },
+      {
+        title: "Category5",
+        link:""
+      },
+      {
+        title: "Category6",
+        link:""
+      },
+      {
+        title: "Category7",
+        link:""
+      },
+      {
+        title: "Category8",
+        link:""
+      }
+    ]
+  },
+  {
+    title: "Board",
+    depth: [
+      {
+        title: "Notice",
+        link:""
       }
     ]
   }

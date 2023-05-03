@@ -1,3 +1,40 @@
 .type3 {
-  header {padding:0 2rem;}
+  .con {max-width: 120rem;}
+  header {padding:0 2rem; border-bottom:1px solid #e6e6e6;
+    .logo {}
+    .left_menu {
+      > li {border:1px solid red;
+        > .title {padding:1.5rem; }
+        .depth_menu {width:100%; height:0; top:100%; left:0; background:#e6e6e6; z-index: 1; overflow: hidden; transition: all 0.3s, z-index 0s;
+          ul {z-index: 1; flex-flow:column wrap; transition: z-index 0s;}
+        }
+        &:hover {
+          .depth_menu {min-height:36rem; height: auto; padding:3rem 0; z-index: 2; transition: padding 0.3s;
+            ul {z-index: 2;
+              li {flex-basis:50%;
+                a {padding:0.5rem;
+                  &::before {content:""; position: absolute; width: 0; height:3px; bottom:0; left:50%; background: #0064a2; transition: width 0.3s;}
+                  &::after {content:""; position: absolute; width: 0; height:3px; bottom:0; right:50%; background: #0064a2; transition: width 0.3s;}
+                }
+                &:hover {
+                  a {
+                    &::before {width: 50%;}
+                    &::after {width: 50%;}
+                  }
+                }
+              }
+            }
+            .page_info_box {position:absolute; width:30rem; height:30rem; top:3rem; right:0; border:1px solid red;}
+          }
+        }
+      }
+    }
+    .right_menu {flex-basis:11rem; font-weight: 500;
+      > li {border-radius:5px; border:1px solid #e6e6e6;
+          a {display:flex; padding:0.3rem; background:#e6e6e6; font-size:1.4rem; color:#111111;}
+          &.login {}
+          &.mypage {}
+      }
+    }
+  }
 }
