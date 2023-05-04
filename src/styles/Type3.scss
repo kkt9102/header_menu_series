@@ -9,10 +9,10 @@
           ul {z-index: 1; flex-flow:column wrap; transition: z-index 0s;}
         }
         &:hover {
-          .depth_menu {height: auto; padding:3rem 0; z-index: 2; transition: padding 0.3s;
+          .depth_menu {height: auto; padding:2rem 0; z-index: 2; transition: padding 0.3s;
             ul {z-index: 2;
               li {flex-basis:50%;
-                a {padding:0.5rem;
+                a {padding:1rem;
                   &::before {content:""; position: absolute; width: 0; height:3px; bottom:0; left:50%; background: #0064a2; transition: width 0.3s;}
                   &::after {content:""; position: absolute; width: 0; height:3px; bottom:0; right:50%; background: #0064a2; transition: width 0.3s;}
                 }

@@ -1,0 +1,25 @@
+.type4 {
+  header {width:100%; border-bottom: 1px solid #eeeeee;
+    .head_menu {flex-grow:1;
+      > ul {
+          > li {flex-basis:10rem;
+            .depth {display: none; top:100%; left:0; padding:1rem; background: #ffffff; border-radius:3px; border:1px solid #eeeeee;
+              .title {white-space: nowrap;}
+            }
+            &:hover {
+              .depth_1 {display: block;
+                ul {
+                  > li {
+                    
+                    &:hover {
+                      .depth_2 {display: block;}
+                    }
+                  }
+                }
+              }
+            }
+          }
+      }
+    }
+  }
+}

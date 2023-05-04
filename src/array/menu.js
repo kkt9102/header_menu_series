@@ -178,12 +178,203 @@ const Type3 = [
       }
     ]
   }
+];
+const Type4 = [
+  {
+    title: "회사소개",
+    depth_1: [
+      {
+        title: "회사는요",
+        depth_2: []
+      },
+      {
+        title: "대표는요",
+        depth_2: []
+      },
+      {
+        title: "조직도는요",
+        depth_2: []
+      }
+    ]
+  },
+  {
+    title: "남성",
+    depth_1: [
+      {
+        title: "신상품",
+        depth_2: [
+          {
+            title: "아우터",
+            link: ""
+          },
+          {
+            title: "상의",
+            link: ""
+          },
+          {
+            title: "하의",
+            link: ""
+          },
+          {
+            title: "신발",
+            link: ""
+          },
+          {
+            title: "악세사리",
+            link: ""
+          }
+        ]
+      },
+      {
+        title: "아우터",
+        depth_2: []
+      },
+      {
+        title: "상의",
+        depth_2: []
+      },
+      {
+        title: "하의",
+        depth_2: []
+      },
+      {
+        title: "신발",
+        depth_2: []
+      },
+      {
+        title: "악세사리",
+        depth_2: []
+      },
+    ]
+  },
+  {
+    title: "여성",
+    depth_1: [
+      {
+        title: "신상품",
+        depth_2: [
+          {
+            title: "아우터",
+            link: ""
+          },
+          {
+            title: "상의",
+            link: ""
+          },
+          {
+            title: "하의",
+            link: ""
+          },
+          {
+            title: "신발",
+            link: ""
+          },
+          {
+            title: "악세사리",
+            link: ""
+          }
+        ]
+      },
+      {
+        title: "아우터",
+        depth_2: []
+      },
+      {
+        title: "상의",
+        depth_2: []
+      },
+      {
+        title: "하의",
+        depth_2: []
+      },
+      {
+        title: "신발",
+        depth_2: []
+      },
+      {
+        title: "악세사리",
+        depth_2: []
+      },
+    ]
+  },
+  {
+    title: "어린이",
+    depth_1: [
+      {
+        title: "신상품",
+        depth_2: [
+          {
+            title: "아우터",
+            link: ""
+          },
+          {
+            title: "상의",
+            link: ""
+          },
+          {
+            title: "하의",
+            link: ""
+          },
+          {
+            title: "신발",
+            link: ""
+          },
+          {
+            title: "악세사리",
+            link: ""
+          }
+        ]
+      },
+      {
+        title: "아우터",
+        depth_2: []
+      },
+      {
+        title: "상의",
+        depth_2: []
+      },
+      {
+        title: "하의",
+        depth_2: []
+      },
+      {
+        title: "신발",
+        depth_2: []
+      },
+      {
+        title: "악세사리",
+        depth_2: []
+      },
+    ]
+  },
+  {
+    title: "게시판들",
+    depth_1: [
+      {
+        title: "공지사항",
+        depth_2: []
+      },
+      {
+        title: "자주하는 질문들",
+        depth_2: []
+      },
+      {
+        title: "쇼핑몰에는 후기게시판이죠",
+        depth_2: []
+      },
+      {
+        title: "자유게시판",
+        depth_2: []
+      },
+    ]
+  },
 ]
 
 const MenuArray = {
   UseHome,
   UseDepth,
-  Type3
+  Type3,
+  Type4
 };
 
 export default MenuArray;
