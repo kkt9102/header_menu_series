@@ -23,9 +23,9 @@ const Header = () => {
                     </li>
                   )}
                 </ul>
-                <div className="page_info_box relative">
+                {/* <div className="page_info_box relative">
 
-                </div>
+                </div> */}
               </nav>
             </div>
           </li>

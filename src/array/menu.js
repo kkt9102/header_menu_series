@@ -150,22 +150,6 @@ const Type3 = [
         title: "Category4",
         link:""
       },
-      {
-        title: "Category5",
-        link:""
-      },
-      {
-        title: "Category6",
-        link:""
-      },
-      {
-        title: "Category7",
-        link:""
-      },
-      {
-        title: "Category8",
-        link:""
-      }
     ]
   },
   {
@@ -173,6 +157,23 @@ const Type3 = [
     depth: [
       {
         title: "Notice",
+        link:""
+      },
+      {
+        title: "Review",
+        link:""
+      }
+    ]
+  },
+  {
+    title: "E.T.C",
+    depth: [
+      {
+        title: "Item1",
+        link:""
+      },
+      {
+        title: "E.T.C1",
         link:""
       }
     ]
