@@ -227,23 +227,100 @@ const Type4 = [
       },
       {
         title: "아우터",
-        depth_2: []
+        depth_2: [
+          {
+            title: "코트",
+            link: ""
+          },
+          {
+            title: "바람막이",
+            link: ""
+          },
+          {
+            title: "숏패딩",
+            link: ""
+          },
+          {
+            title: "롱패딩",
+            link: ""
+          },
+        ]
       },
       {
         title: "상의",
-        depth_2: []
+        depth_2: [
+          {
+            title: "긴팔",
+            link: ""
+          },
+          {
+            title: "반팔",
+            link: ""
+          },
+          {
+            title: "와이셔츠",
+            link: ""
+          },
+          {
+            title: "기능성 상의",
+            link: ""
+          },
+        ]
       },
       {
         title: "하의",
-        depth_2: []
+        depth_2: [
+          {
+            title: "긴바지",
+            link: ""
+          },
+          {
+            title: "반바지",
+            link: ""
+          },
+        ]
       },
       {
         title: "신발",
-        depth_2: []
+        depth_2: [
+          {
+            title: "운동화",
+            link: ""
+          },
+          {
+            title: "구두",
+            link: ""
+          },
+          {
+            title: "슬리퍼",
+            link: ""
+          },
+          {
+            title: "토퍼",
+            link: ""
+          },
+        ]
       },
       {
         title: "악세사리",
-        depth_2: []
+        depth_2: [
+          {
+            title: "모자",
+            link: ""
+          },
+          {
+            title: "백팩",
+            link: ""
+          },
+          {
+            title: "크로스백",
+            link: ""
+          },
+          {
+            title: "안경",
+            link: ""
+          },
+        ]
       },
     ]
   },
@@ -352,6 +429,10 @@ const Type4 = [
     depth_1: [
       {
         title: "공지사항",
+        depth_2: []
+      },
+      {
+        title: "이벤트",
         depth_2: []
       },
       {

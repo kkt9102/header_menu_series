@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { Link } from "react-scroll";
 
 import MenuArray from "@/array/menu";
+import { CommonMenu } from "@/array/common";
 
 import Logo from "public/assets/img/logo.png";
 
@@ -22,12 +23,18 @@ const Header = () => {
         )}
       </ul>
       <ul className="btn_box flex flex_jc_sa">
-        <li className="flex flex_jc_sa flex_ai_c">
-          <button onClick={() => router.push("/")}>홈으로</button>
-        </li>
-        <li className="flex flex_jc_sa flex_ai_c">
-          <button onClick={() => window.open("https://github.com/kkt9102/header_menu_series")}>github</button>
-        </li>
+        {CommonMenu.map((item, index) =>
+          <li key={index} className="flex flex_jc_sa flex_ai_c">
+            <button onClick={
+              () => 
+              {item.title !== "github" ? 
+                router.push(`${item.link}`)
+                :
+                window.open(`${item.link}`)
+              }
+            }>{item.title}</button>
+          </li>
+        )}
       </ul>
     </header>
   )
