@@ -1,5 +1,6 @@
 import PageTitle from "@/components/common/PageTitle";
 import Header from "@/components/type2/Header";
+import Home from "@/components/type2/Home";
 
 const Type2 = () => {
   return(
@@ -7,7 +8,9 @@ const Type2 = () => {
       <PageTitle/>
       <div className="type2">
         <Header/>
-        <div className="con"></div>
+        <div className="con">
+          <Home/>
+        </div>
       </div>
     </>
   )

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import MenuArray from "@/array/menu";
+import { CommonMenu } from "@/array/common";
 
 import Logo from "public/assets/img/logo.png";
 
@@ -19,7 +20,7 @@ const Header = () => {
                 <span className="flex flex_jc_c flex_ai_c">{item.title}</span>
                 <div className="depth_menu absolute">
                   <ul>
-                    {item.Depth.map((item, index) =>
+                    {item.depth.map((item, index) =>
                       <li key={index} className="flex flex_jc_c flex_ai_c">
                         <Link href="#" className="relative flex flex_jc_c flex_ai_c">{item.title}</Link>
                       </li>
