@@ -1,10 +1,14 @@
-import MenuArray from "@/array/menu";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
+
+import MenuArray from "@/array/menu";
+import { CommonMenu } from "@/array/common";
 
 import Logo from "public/assets/img/logo.png";
 
 const Header = () => {
+  const router = useRouter();
   return(
     <header className="fixed flex flex_jc_sb flex_ai_c">
       <div className="logo">
@@ -47,12 +51,18 @@ const Header = () => {
       </div>
       <div className="my_menu">
         <ul className="flex flex_jc_sb flex_ai_c">
-          <li>
-            <Link href="#">홈으로</Link>
+        {CommonMenu.map((item, index) =>
+          <li key={index} className="flex flex_jc_sa flex_ai_c">
+            <button onClick={
+              () => 
+              {item.title !== "github" ? 
+                router.push(`${item.link}`)
+                :
+                window.open(`${item.link}`)
+              }
+            }>{item.title}</button>
           </li>
-          <li>
-            <Link href="#">github</Link>
-          </li>
+        )}
         </ul>
       </div>
     </header>
